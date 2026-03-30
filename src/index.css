@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#F9F8F6] text-[#1A1A1A] font-sans;
+  }
+}
+
+.trust-tag {
+  @apply px-3 py-1 rounded-full text-[10px] font-bold tracking-wider uppercase;
+}
+
+.quality-label {
+  @apply px-3 py-1 rounded-lg text-[10px] font-bold tracking-wider uppercase bg-[#F2F1EE] text-[#5A5A5A];
+}
